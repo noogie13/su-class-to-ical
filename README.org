@@ -7,8 +7,8 @@ Clone this repo:
 2. "View My Class Schedule"
 3. "Printer Friendly Page"
 4. Copy it all (Ctrl+A -> Ctrl+C)
-5. Put that in a with anyname, we'll call it `input` in the directory of the script.
-6. Run the script with the name of the file as a parameter `./script.py input`
+5. Put that in a with anyname, we'll call it =input= in the directory of the script.
+6. Run the script with the name of the file as a parameter =./script.py input=
 
 Then it generates your ICS file with name schedule.ics.
 
