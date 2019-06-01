@@ -1,0 +1,15 @@
+* how it works:
+
+Clone this repo:
+: git clone https://github.com/noogie13/su-class-to-ical
+
+1. Sign into myslice
+2. "View My Class Schedule"
+3. "Printer Friendly Page"
+4. Copy it all (Ctrl+A -> Ctrl+C)
+5. Put that in a with anyname, we'll call it `input` in the directory of the script.
+6. Run the script with the name of the file as a parameter `./script.py input`
+
+Then it generates your ICS file with name schedule.ics.
+
+Import to wherever. (Make a new calendar wherever you import it in case it it messed up).
