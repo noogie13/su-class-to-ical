@@ -57,6 +57,7 @@ if len(sys.argv) > 1:
     classes = open_file(sys.argv[1])
     for each in classes:
         event_parse(each)
-    with open('schedule.ics', "wb") as f:
-        f.write((cal.to_ical()))
-        print("schedule.isc written")
+    print(cal.to_ical())
+#    with open('schedule.ics', "wb") as f:
+#        f.write((cal.to_ical()))
+#        print("schedule.isc written")
